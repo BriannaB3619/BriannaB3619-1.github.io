@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Diamond Snow Resorts</title>
+        <meta name="author" content="Brianna Beasley">
+        <meta name="description" content="resort wireframe final project">
+        <!--favicon-->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <!--font imports-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <!--stylesheet link-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1><a href="index.html">Diamond Snow Resorts</a></h1>
+            <!--add swiss-valley img as hero img in css (background)-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main2">
+            <section class="section4">
+                <h2>Contact Us</h2>
+                <p>   Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br><br>Required fields marked with a *</p>
+                <img src="images/swiss-peak.jpg" alt="snowy top of a mountain showing above the top of a forest of pine trees.">
+            </section>
+
+            <form method="POST" action="https://wp.zybooks.com/form-viewer.php">
+                <label for="my-name">Full Name*</label>
+                <input class="form-box" type="text" name="my-name" id="my-name" required>
+
+                <label for="my-email">Email Address*</label>
+                <input class="form-box" type="email" name="my-email" id="my-email" required>
+
+                <label for="my-phone">Phone Number*</label>
+                <input class="form-box" type="tel" name="my-phone" id="my-phone" required>
+
+                <fieldset >
+                    <legend>Preferred Contact Method</legend>
+                            
+                        <input type="radio" name="my-contact" id="email" value="email" checked>
+                        <label class="radio-input" for="email">Email</label>
+
+                        <input type="radio" name="my-contact" id="phone" value="phone">
+                        <label class="radio-input" for="phone">Phone</label>
+                            
+                </fieldset>
+
+                <label for="my-comments">Comments*</label>
+                <textarea name="my-comments" id="my-comments" required></textarea>
+
+                <input type="submit" name="my-submit" id="my-submit">
+                    
+            </form>
+    
+        </main>
+        <footer>
+            <p>Copyright ©2023 - Diamond Snow Resorts</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
